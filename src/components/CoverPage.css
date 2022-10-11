@@ -1,0 +1,25 @@
+.coverpage {
+  background-color: #1334b3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+.coverpage > img {
+}
+
+.coverpage__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin-top: -30px;
+}
+
+.coverpage__content > p {
+  margin-top: -10px;
+  text-align: center;
+  width: 70%;
+}

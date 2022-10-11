@@ -1,0 +1,96 @@
+.loginpage {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login__container {
+  width: 500px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.login__welcomecontainer > p {
+  margin-top: -10px;
+}
+
+.login__welcomecontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.login__container > form {
+  width: 100%;
+}
+
+.login__userinfo {
+  width: 100%;
+}
+
+.userinfo__username {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 1px solid #939596;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.userinfo__password {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 1px solid #939596;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.userinfo__password > input {
+  font-size: 15px;
+  width: 100%;
+  height: 40px;
+  border: 0px;
+  padding: 5px;
+  outline: none;
+}
+
+.userinfo__username > input {
+  font-size: 15px;
+  width: 100%;
+  height: 40px;
+  border: 0px;
+  padding: 5px;
+  outline: none;
+}
+
+#loginButton {
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 400;
+
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  background-color: #1334b3;
+}
+
+.login__userinfo > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #686687;
+  cursor: pointer;
+}
+#image-logo {
+  object-fit: contain;
+  width: 50px;
+}
